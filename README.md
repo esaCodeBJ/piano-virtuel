@@ -33,9 +33,7 @@ Consultez la démo en direct [ici](https://projets.expeditalagbe.com/piano-virtu
 
 [Expédit Sourou ALAGBE]
 
-### Licence
 
-Ce projet est sous licence MIT.
 
 ## English
 
@@ -69,7 +67,4 @@ Check out the live demo [here](https://projets.expeditalagbe.com/piano-virtuel).
 
 [Expédit Sourou ALAGBE]
 
-### License
-
-This project is licensed under the MIT License.
 
