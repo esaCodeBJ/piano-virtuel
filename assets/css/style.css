@@ -1,0 +1,76 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+    background-color: red;
+    color: white; /* Ajout de la couleur du texte */
+}
+
+header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.piano-container {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.description {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#cont_piano,
+#cont_piano2 {
+    height: 229px;
+    border-top: inset 2px silver;
+    background: url(../image/touche.jpg);
+    background-repeat: repeat-x;
+    transform: perspective(1000px) translateZ(15px) rotateX(-2deg);
+    box-shadow: 0 5px 5px #111;
+    border-radius: 7px;
+}
+
+.contour,
+.contour2 {
+    height: 229px;
+    margin: auto;
+    margin-top: -10px;
+    transform: perspective(1300px) rotateX(50deg) rotateZ(-2deg);
+    box-shadow: 0 5px 5px #111;
+    border-radius: 8px;
+    border: solid #343434;
+    border-width: 50px 20px 30px 20px;
+}
+
+.contour2 {
+    margin-top: -20px;
+}
+
+.svg_piano {
+    position: relative;
+    left: 0px;
+}
+
+.polygon1 {
+    fill: rgba(0, 0, 200, 0);
+    stroke: rgba(0, 0, 0, 0.1);
+    stroke-width: 1;
+    border-radius: 10px;
+}
+
+.polygon2 {
+    filter: drop-shadow(0px 0px 1px black);
+    -webkit-filter: drop-shadow(0px 0px 2px black);
+    fill: rgba(0, 0, 255, 0.04);
+    stroke: rgba(0, 0, 0, 1);
+}
